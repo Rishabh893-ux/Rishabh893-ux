@@ -35,9 +35,8 @@ role     : AI Engineer + Full Stack Developer
 status   : Building in public
 
 focus:
-  - AI-powered web applications
-  - Automation & agentic systems
-  - Scalable full stack products
+         - AI-powered web applications
+         - Scalable full stack products
 
 mindset  : Build → Ship → Iterate
 open_to  : Collabs · Internships · Freelance
@@ -50,13 +49,10 @@ open_to  : Collabs · Internships · Freelance
 ## 💻 Right now
 
 ```python
-learning  = ["LLMs", "RAG", "System Design"]
-building  = ["AI Navigator", "AutoStack"]
-exploring = ["n8n Agents", "LangChain", "Vector DBs"]
 
 ask_me_about = ["Python", "React", "MongoDB", "AI Tools"]
-
 fun_fact = "I build what I wish already existed."
+
 ```
 
 ---
@@ -200,8 +196,6 @@ Tracks income, expenses, budgets, and goals with visual dashboards and category 
 
 ```
 AI Navigator         ████████████░░  85%  Gemini-powered AI learning platform for students
-n8n Automations      ██████████░░░░  70%  AI agent workflows for real-world clients
-RAG Chatbot          ████████░░░░░░  55%  Document Q&A system with vector search
 Portfolio v3         ██████░░░░░░░░  40%  Next.js personal site with animations
 ```
 
@@ -235,8 +229,8 @@ Portfolio v3         ██████░░░░░░░░  40%  Next.js pe
 | 🤖 | Created **AI Navigator** — a Gemini-powered learning platform from scratch |
 | ⚡ | Engineered **AutoStack-Launcher** solving a real dev workflow pain point |
 | 🔍 | Built **OMR Answer Sheet Processor** — AI-powered automated evaluation system |
-| 🌐 | Active across **multiple tech domains** — AI, web, automation, and backend |
-| 🧠 | Actively learning **LLMs, RAG, n8n agents, and system architecture** |
+| 🌐 | Active across **multiple tech domains** — AI, web and backend |
+| 🧠 | Actively learning **system architecture** |
 
 ---
 
