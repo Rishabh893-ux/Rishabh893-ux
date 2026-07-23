@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="250">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </radialGradient>
+    
+    <!-- Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF">
+        <animate attributeName="stop-color" values="#00F7FF;#7aa2f7;#00F7FF" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#6e40c9" />
+      <stop offset="100%" stop-color="#c4b5fd">
+        <animate attributeName="stop-color" values="#c4b5fd;#bb9af7;#c4b5fd" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="hoverGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#c4b5fd" />
+      <stop offset="100%" stop-color="#00F7FF" />
+    </linearGradient>
+    
+    <!-- Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glow-intense" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Glassmorphism Filter -->
+    <filter id="glass">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="glow" />
+      <feBlend in="SourceGraphic" in2="glow" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes float1 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-20px, -15px); } }
+    @keyframes float2 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(20px, 15px); } }
+    @keyframes pulse { 0%, 100% { opacity: 0.7; } 50% { opacity: 0.2; } }
+    @keyframes stream { 0% { stroke-dashoffset: 1000; } 100% { stroke-dashoffset: 0; } }
+    
+    .orb1 { animation: float1 8s ease-in-out infinite, pulse 6s infinite; }
+    .orb2 { animation: float2 10s ease-in-out infinite, pulse 8s infinite; }
+    
+    .data-stream {
+      stroke-dasharray: 100 200;
+      animation: stream 15s linear infinite;
+    }
+
+    /* Base Text Styles */
+    .text-glow { 
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+      font-weight: 900; 
+      font-size: 56px; 
+      fill: #ffffff; 
+      letter-spacing: 2px;
+      transition: all 0.4s ease;
+      cursor: pointer;
+    }
+    .subtitle { 
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+      font-weight: 500; 
+      font-size: 18px; 
+      fill: #c0caf5; 
+      letter-spacing: 5px; 
+      transition: all 0.4s ease;
+    }
+    .tagline {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+      font-weight: 400; 
+      font-size: 14px; 
+      fill: #7aa2f7; 
+      letter-spacing: 2px;
+      opacity: 0.8;
+      transition: all 0.4s ease;
+    }
+
+    /* Hover Effects */
+    .interactive-group {
+      transform-origin: center;
+      transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .interactive-group:hover {
+      transform: scale(1.03);
+    }
+    .interactive-group:hover .text-glow {
+      fill: url(#hoverGrad);
+      filter: url(#glow-intense);
+      letter-spacing: 4px;
+    }
+    .interactive-group:hover .subtitle {
+      fill: #ffffff;
+      letter-spacing: 7px;
+    }
+    .interactive-group:hover .tagline {
+      fill: #00F7FF;
+      opacity: 1;
+    }
+    .interactive-group:hover .glass-card {
+      fill-opacity: 0.15;
+      stroke-opacity: 0.5;
+    }
+    .glass-card {
+      transition: all 0.4s ease;
+    }
+  </style>
+
+  <!-- Deep Radial Background -->
+  <rect width="800" height="250" fill="url(#bg)" />
+  
+  <!-- Neural/Data Streams -->
+  <path d="M -100 125 C 200 20, 600 230, 900 125" fill="none" stroke="#6e40c9" stroke-width="2" opacity="0.4" class="data-stream" />
+  <path d="M -100 150 C 300 250, 500 0, 900 150" fill="none" stroke="#00F7FF" stroke-width="1.5" opacity="0.3" class="data-stream" style="animation-duration: 20s; animation-direction: reverse;" />
+  <path d="M -100 80 C 150 180, 650 70, 900 80" fill="none" stroke="#7aa2f7" stroke-width="3" opacity="0.2" class="data-stream" style="animation-duration: 12s;" />
+
+  <!-- Animated Background Orbs -->
+  <circle cx="150" cy="125" r="100" fill="#6e40c9" class="orb1" filter="blur(60px)"/>
+  <circle cx="650" cy="125" r="120" fill="#00F7FF" class="orb2" filter="blur(70px)"/>
+
+  <!-- Interactive Group for Hover Effect -->
+  <g class="interactive-group">
+    <!-- Glassmorphic Card -->
+    <rect x="70" y="50" width="660" height="150" rx="20" fill="#0d1117" fill-opacity="0.5" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1" class="glass-card" />
+    
+    <!-- Main Text -->
+    <text x="400" y="115" text-anchor="middle" class="text-glow">RISHABH KASAUDHAN</text>
+    
+    <!-- Subtitle -->
+    <text x="400" y="155" text-anchor="middle" class="subtitle">AI ENGINEER • FULL STACK • BUILDER</text>
+    
+    <!-- Tagline -->
+    <text x="400" y="185" text-anchor="middle" class="tagline">&lt; Build / Ship / Iterate &gt;</text>
+  </g>
+</svg>

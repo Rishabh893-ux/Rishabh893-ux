@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:1a0533,70:3d1a8c,100:6e40c9&height=230&section=header&text=Rishabh%20Kasaudhan&fontSize=52&fontColor=00F7FF&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Full%20Stack%20Developer%20%E2%80%A2%20Builder&descSize=18&descAlignY=60&descColor=c4b5fd" alt="Header"/>
+<img src="./banner.svg" alt="Header"/>
 
 </div>
 
@@ -14,6 +14,9 @@
 
 <div align="center">
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=globe&logoColor=00F7FF&labelColor=0d1117)](https://your-portfolio-link.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117)](https://linkedin.com/in/your-linkedin)
+[![X/Twitter](https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=ffffff&labelColor=0d1117)](https://twitter.com/your-twitter)
 [![Gmail](https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117)](mailto:rkasaudhan87@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0d1117)](https://github.com/Rishabh893-ux)
 [![Instagram](https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F&labelColor=0d1117)](https://instagram.com/rishabhkasaudhan4364)
@@ -28,31 +31,20 @@
 
 ## 🧠 About me
 
-```yaml
-name     : Rishabh Kasaudhan
-location : India
-role     : AI Engineer + Full Stack Developer
-status   : Building in public
-
-focus:
-         - AI-powered web applications
-         - Scalable full stack products
-
-mindset  : Build → Ship → Iterate
-open_to  : Collabs · Internships · Freelance
-```
-
-<br clear="right"/>
-
----
-
-## 💻 Right now
-
-```python
-
-ask_me_about = ["Python", "React", "MongoDB", "AI Tools"]
-fun_fact = "I build what I wish already existed."
-
+```typescript
+const rishabh = {
+  role: ["AI Engineer", "Full Stack Developer"],
+  location: "India 🇮🇳",
+  mindset: "Build → Ship → Iterate 🚀",
+  focus: [
+    "AI-powered web applications",
+    "Scalable full stack architectures"
+  ],
+  askMeAbout: ["Python", "React", "MongoDB", "GenAI"],
+  funFact: "I build what I wish already existed. ✨",
+  status: "Building in public",
+  openTo: ["Collaborations", "Internships", "Freelance"]
+};
 ```
 
 ---
@@ -62,39 +54,33 @@ fun_fact = "I build what I wish already existed."
 <div align="center">
 
 ### Languages
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![C++](https://img.shields.io/badge/C++-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00599C)
-![Java](https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=py,js,ts,cpp,java" />
+</a>
 
 ### Frontend
-![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=ffffff)
-![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=1572B6)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-0d1117?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind" />
+</a>
 
 ### Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=339933)
-![Django](https://img.shields.io/badge/Django-0d1117?style=for-the-badge&logo=django&logoColor=092E20)
-![Flask](https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=ffffff)
-![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=47A248)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nodejs,django,flask,mongo,postgres" />
+</a>
 
 ### AI & Automation
-![Gemini](https://img.shields.io/badge/Gemini_API-0d1117?style=for-the-badge&logo=google&logoColor=4285F4)
-![OpenAI](https://img.shields.io/badge/OpenAI-0d1117?style=for-the-badge&logo=openai&logoColor=ffffff)
-![LangChain](https://img.shields.io/badge/LangChain-0d1117?style=for-the-badge&logo=chainlink&logoColor=375BD2)
-![n8n](https://img.shields.io/badge/n8n-0d1117?style=for-the-badge&logo=n8n&logoColor=EA4B71)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-0d1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E)
+<div align="center">
+  <img src="https://img.shields.io/badge/Gemini_API-1a1b26?style=flat&logo=google&logoColor=4285F4" alt="Gemini"/>
+  <img src="https://img.shields.io/badge/OpenAI-1a1b26?style=flat&logo=openai&logoColor=ffffff" alt="OpenAI"/>
+  <img src="https://img.shields.io/badge/LangChain-1a1b26?style=flat&logo=chainlink&logoColor=375BD2" alt="LangChain"/>
+  <img src="https://img.shields.io/badge/n8n-1a1b26?style=flat&logo=n8n&logoColor=EA4B71" alt="n8n"/>
+  <img src="https://img.shields.io/badge/HuggingFace-1a1b26?style=flat&logo=huggingface&logoColor=FFD21E" alt="HuggingFace"/>
+</div>
 
 ### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
-![Firebase](https://img.shields.io/badge/Firebase-0d1117?style=for-the-badge&logo=firebase&logoColor=FFCA28)
-![Netlify](https://img.shields.io/badge/Netlify-0d1117?style=for-the-badge&logo=netlify&logoColor=00C7B7)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=aws,firebase,netlify,docker,git" />
+</a>
 
 </div>
 
@@ -174,53 +160,6 @@ Tracks income, expenses, budgets, and goals with visual dashboards and category 
 
 ---
 
-## 📊 GitHub stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Rishabh893-ux&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6e40c9&icon_color=00F7FF&text_color=c4b5fd&ring_color=6e40c9&count_private=true" height="165" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Rishabh893-ux&theme=tokyonight&hide_border=true&background=0d1117&ring=6e40c9&fire=00F7FF&currStreakLabel=c4b5fd&sideLabels=c4b5fd&dates=8b949e" height="165" alt="Streak Stats"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishabh893-ux&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6e40c9&text_color=c4b5fd&langs_count=8" height="150" alt="Top Languages"/>
-
-</div>
-
----
-
-## 🏗️ What I'm building now
-
-```
-AI Navigator         ████████████░░  85%  Gemini-powered AI learning platform for students
-Portfolio v3         ██████░░░░░░░░  40%  Next.js personal site with animations
-```
-
----
-
-## 📈 Contribution graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rishabh893-ux&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=6e40c9&line=00F7FF&point=c4b5fd&area=true&area_color=6e40c9" alt="Contribution Graph"/>
-
-</div>
-
----
-
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Rishabh893-ux&theme=discord&no-frame=true&no-bg=true&row=1&column=7&margin-w=6" alt="Trophies"/>
-
-</div>
-
----
-
 ## ✅ Achievements
 
 | | |
@@ -233,6 +172,52 @@ Portfolio v3         ██████░░░░░░░░  40%  Next.js pe
 | 🧠 | Actively learning **system architecture** |
 
 ---
+
+## 🏗️ What I'm building now
+
+```
+AI Navigator         ████████████░░  85%  Gemini-powered AI learning platform for students
+Portfolio v3         ██████░░░░░░░░  40%  Next.js personal site with animations
+```
+
+---
+
+## 📊 GitHub Dashboard
+
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="50%" valign="top" align="center">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rishabh893-ux&theme=tokyonight&hide_border=true" width="100%" alt="Streak Stats"/>
+      </td>
+      <td width="50%" valign="top" align="center">
+        <img src="https://github-stats-extended.vercel.app/api?username=Rishabh893-ux&show_icons=true&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Stats"/>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top" align="center">
+        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Rishabh893-ux&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" width="100%" alt="Top Languages"/>
+      </td>
+      <td width="50%" valign="top" align="center">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rishabh893-ux&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=6e40c9&line=00F7FF&point=c4b5fd&area=true&area_color=6e40c9" width="100%" alt="Contribution Graph"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 🏆 Trophies
+
+<div align="center">
+
+<!-- You can manually add your trophy images or badges here later -->
+
+</div>
+
+---
+
+
 
 ## ✍️ Dev quote
 
@@ -259,4 +244,3 @@ Portfolio v3         ██████░░░░░░░░  40%  Next.js pe
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,50:3d1a8c,100:0d1117&height=120&section=footer" alt="Footer"/>
-
