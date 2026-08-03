@@ -195,11 +195,13 @@ Portfolio v3         ██████░░░░░░░░  40%  Next.js pe
       </td>
     </tr>
     <tr>
-      <td width="50%" valign="top" align="center">
-        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Rishabh893-ux&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" width="100%" alt="Top Languages"/>
+      <td colspan="2" valign="top" align="center">
+        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Rishabh893-ux&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" width="60%" alt="Top Languages"/>
       </td>
-      <td width="50%" valign="top" align="center">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rishabh893-ux&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=6e40c9&line=00F7FF&point=c4b5fd&area=true&area_color=6e40c9&height=420" width="100%" alt="Contribution Graph"/>
+    </tr>
+    <tr>
+      <td colspan="2" valign="top" align="center">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rishabh893-ux&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=6e40c9&line=00F7FF&point=c4b5fd&area=true&area_color=6e40c9" width="100%" alt="Contribution Graph"/>
       </td>
     </tr>
   </table>
