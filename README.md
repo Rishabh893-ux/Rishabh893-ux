@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Building+AI-powered+products+%F0%9F%9A%80;Python+%7C+React+%7C+MongoDB+%7C+Gemini+API;Automation+%7C+Full+Stack+%7C+Open+Source;Open+to+internships+%26+collabs)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Building+AI-powered+products+%F0%9F%9A%80;Next.js+%7C+TypeScript+%7C+Python+%7C+Gemini+API;AI+agents+%7C+Full+Stack+%7C+.NET+APIs;Open+to+internships+%26+collabs)](https://git.io/typing-svg)
 
 </div>
 
@@ -14,9 +14,8 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=globe&logoColor=00F7FF&labelColor=0d1117)](https://your-portfolio-link.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117)](https://linkedin.com/in/your-linkedin)
-[![X/Twitter](https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=ffffff&labelColor=0d1117)](https://twitter.com/your-twitter)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=globe&logoColor=00F7FF&labelColor=0d1117)](https://github.com/Rishabh893-ux/Rishabh-Portfolio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117)](https://www.linkedin.com/in/rishabh-kasaudhan-0a960724a/)
 [![Gmail](https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117)](mailto:rkasaudhan87@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0d1117)](https://github.com/Rishabh893-ux)
 [![Instagram](https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F&labelColor=0d1117)](https://instagram.com/rishabhkasaudhan4364)
@@ -55,7 +54,7 @@ const rishabh = {
 
 ### Languages
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=py,js,ts,cpp,java" />
+  <img src="https://skillicons.dev/icons?i=py,ts,js,cs,cpp,java" />
 </a>
 
 ### Frontend
@@ -65,7 +64,7 @@ const rishabh = {
 
 ### Backend & Database
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=nodejs,django,flask,mongo,postgres" />
+  <img src="https://skillicons.dev/icons?i=nodejs,dotnet,fastapi,flask,django,mongo,postgres,prisma" />
 </a>
 
 ### AI & Automation
@@ -93,52 +92,80 @@ const rishabh = {
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ [AutoStack-Launcher](https://github.com/Rishabh893-ux/AutoStack-Launcher)
-> Automation & dev workflow tool
+### 🧭 [AI Navigator](https://github.com/Rishabh893-ux/AI-Navigator-)
+> AI learning platform with an **agent** mentor
 
-Automates full dev environment setup — installs dependencies, configures tools, and launches project stacks with a single command. Built for speed.
+A game-style skill tree of 17 AI skills with quizzes, an adaptive learning path, badges and stats. Its Gemini mentor uses **function calling** to quiz you, save study plans and update your progress, with Undo.
 
-`Python` `CLI` `Automation` `DevOps`
+`Next.js 16` `TypeScript` `Gemini` `Vitest`
 
-[![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/AutoStack-Launcher)
+[![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/AI-Navigator-)
 
 </td>
 <td width="50%" valign="top">
 
-### 🤖 [College Enquiry Chatbot](https://github.com/Rishabh893-ux/college-enquiry-chatbot)
-> AI-powered student assistant
+### 💼 [CareerOS AI](https://github.com/Rishabh893-ux/CareerOS-AI)
+> Career-readiness platform that shows its working
 
-NLP chatbot for admission queries, fees, courses, and FAQs. Handles intent classification and context — no repeated questions.
+Profile, resume, GitHub analysis, mock interviews, outreach and job tracking in one place, with explainable scores computed from real signals.
 
-`Python` `Flask` `NLP` `AI`
+`Next.js 16` `Node.js` `MongoDB Atlas` `CI`
 
-[![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/college-enquiry-chatbot)
+[![Live](https://img.shields.io/badge/Live_Demo-00b894?style=for-the-badge&logo=vercel&logoColor=white)](https://careeros-ai-phi.vercel.app)
+[![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/CareerOS-AI)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🎬 [Movie Scout](https://github.com/Rishabh893-ux/movie-scout)
-> Smart movie discovery platform
+### ⚡ [EdgePilot AI](https://github.com/Rishabh893-ux/EdgePilot_AI)
+> Industrial IoT intelligence platform
 
-Recommends movies based on user preferences using external APIs, smart filtering, and a responsive React UI. Fast, clean, and intuitive.
+Real-time sensor analytics, predictive maintenance, computer-vision safety monitoring and an AI copilot, with a 3D digital twin of the machine.
 
-`React` `JavaScript` `REST API` `CSS`
+`Next.js` `FastAPI` `scikit-learn` `YOLO` `Gemini`
 
-[![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/movie-scout)
+[![Live](https://img.shields.io/badge/Live_Demo-00b894?style=for-the-badge&logo=vercel&logoColor=white)](https://edge-pilot-ai.vercel.app)
+[![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/EdgePilot_AI)
 
 </td>
 <td width="50%" valign="top">
 
-### 💰 [FinFlow Pro](https://github.com/Rishabh893-ux/finflow-pro)
-> Personal finance management system
+### 🛍️ [Vendly by Bazaario](https://github.com/Rishabh893-ux/Bazaario-ECommerce-Platform)
+> Multi-vendor e-commerce marketplace
 
-Tracks income, expenses, budgets, and goals with visual dashboards and category analytics. Production-grade architecture.
+One cart across many sellers, Stripe Connect payouts split automatically to vendors, seller dashboards with revenue charts, and admin moderation.
 
-`React` `MongoDB` `Node.js` `Charts`
+`Next.js` `Prisma` `MongoDB` `Stripe` `NextAuth`
 
-[![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/finflow-pro)
+[![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/Bazaario-ECommerce-Platform)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📄 [AI ATS Resume Platform](https://github.com/Rishabh893-ux/AI-ATS-RESUME-PLATFOORM)
+> Resume builder + ATS score checker
+
+A drag-and-drop resume builder, ATS scoring, job-description matching, AI cover letters and version history, with PDF and DOCX export.
+
+`Next.js` `TypeScript` `MongoDB` `Gemini` `NextAuth`
+
+[![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/AI-ATS-RESUME-PLATFOORM)
+
+</td>
+<td width="50%" valign="top">
+
+### 📚 [Library Management API](https://github.com/Rishabh893-ux/Library-Management-system)
+> REST API backend for running a library
+
+Catalogue, loans with automatic late fines, a fair first-come-first-served reservation queue and librarian reports. JWT roles and 24 passing tests.
+
+`C#` `.NET 8` `EF Core` `SQL Server`
+
+[![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/Library-Management-system)
 
 </td>
 </tr>
@@ -147,36 +174,38 @@ Tracks income, expenses, budgets, and goals with visual dashboards and category 
 
 ---
 
-## 📦 Other repositories
+## 📦 More projects
 
 <div align="center">
 
 | Project | Description | Stack |
 |:---|:---|:---|
-| [🔍 OMR Answer Sheet Processor](https://github.com/Rishabh893-ux/Omr-answer-sheet-processor) | Automated OMR-based answer sheet evaluation | `Python` `OpenCV` `AI` |
-| [🎥 Movie Muse API](https://github.com/Rishabh893-ux/movie-muse-api) | Robust backend API for movie data & queries | `Node.js` `REST` `MongoDB` |
+| [🧭 Waypoint](https://github.com/Rishabh893-ux/WaypointLearningPath) | AI learning-path recommender: turns your goals into an ordered roadmap with a progress dashboard | `Next.js` `Gemini` `Recharts` |
+| [🔍 OMR Answer Sheet Processor](https://github.com/Rishabh893-ux/Omr-answer-sheet-processor) | Automated answer-sheet grading with computer vision, batch processing and reports | `Python` `OpenCV` |
+| [🌤️ Skyline Weather](https://github.com/Rishabh893-ux/Skyline-Weather-App) | Weather app with 7-day and hourly forecasts, air quality, UV and location search | `JavaScript` `Open-Meteo` |
+| [🤖 College Enquiry Chatbot](https://github.com/Rishabh893-ux/college-enquiry-chatbot) | Intent-classification chatbot for admission, fees, courses and hostel questions | `Python` `Flask` `scikit-learn` |
 
 </div>
 
 ---
 
-## ✅ Achievements
+## ✅ Highlights
 
 | | |
 |:---:|:---|
-| 🚀 | Built **6+ real-world projects** — full stack and AI, shipped end-to-end |
-| 🤖 | Created **AI Navigator** — a Gemini-powered learning platform from scratch |
-| ⚡ | Engineered **AutoStack-Launcher** solving a real dev workflow pain point |
-| 🔍 | Built **OMR Answer Sheet Processor** — AI-powered automated evaluation system |
-| 🌐 | Active across **multiple tech domains** — AI, web and backend |
-| 🧠 | Actively learning **system architecture** |
+| 🚀 | **10+ public projects** across AI, full stack and backend, with **2 live on Vercel** |
+| 🤖 | Built an **AI agent** with Gemini function calling: the AI Navigator mentor acts in the app, with Undo |
+| 💳 | Integrated **Stripe Connect** for automatic multi-vendor payouts (Vendly) |
+| 🔐 | Shipped a **.NET 8 REST API** with JWT roles, EF Core and 24 passing tests |
+| 👁️ | Applied **computer vision**: OpenCV grading (OMR) and YOLO safety monitoring (EdgePilot) |
+| 🧪 | Write **tests and CI** for my projects: Vitest, xUnit and GitHub Actions |
 
 ---
 
 ## 🏗️ What I'm building now
 
 ```
-AI Navigator         ████████████░░  85%  Gemini-powered AI learning platform for students
+AI Navigator v3      ██████████████ 100%  Skill tree + AI agent mentor — shipped ✅
 Portfolio v3         ██████░░░░░░░░  40%  Next.js personal site with animations
 ```
 
@@ -188,7 +217,7 @@ Portfolio v3         ██████░░░░░░░░  40%  Next.js pe
   <table width="100%">
     <tr>
       <td width="50%" valign="top" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rishabh893-ux&theme=tokyonight&hide_border=true" width="100%" alt="Streak Stats"/>
+        <img src="https://streak-stats.demolab.com/?user=Rishabh893-ux&theme=tokyonight&hide_border=true" width="100%" alt="Streak Stats"/>
       </td>
       <td width="50%" valign="top" align="center">
         <img src="https://github-stats-extended.vercel.app/api?username=Rishabh893-ux&show_icons=true&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Stats"/>
@@ -208,18 +237,6 @@ Portfolio v3         ██████░░░░░░░░  40%  Next.js pe
 </div>
 
 ---
-
-## 🏆 Trophies
-
-<div align="center">
-
-<!-- You can manually add your trophy images or badges here later -->
-
-</div>
-
----
-
-
 
 ## ✍️ Dev quote
 
