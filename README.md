@@ -99,6 +99,7 @@ A game-style skill tree of 17 AI skills with quizzes, an adaptive learning path,
 
 `Next.js 16` `TypeScript` `Gemini` `Vitest`
 
+[![Live](https://img.shields.io/badge/Live_Demo-00b894?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-navigator-five-nu.vercel.app)
 [![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/AI-Navigator-)
 
 </td>
@@ -111,7 +112,7 @@ Profile, resume, GitHub analysis, mock interviews, outreach and job tracking in 
 
 `Next.js 16` `Node.js` `MongoDB Atlas` `CI`
 
-[![Live](https://img.shields.io/badge/Live_Demo-00b894?style=for-the-badge&logo=vercel&logoColor=white)](https://careeros-ai-phi.vercel.app)
+[![Live](https://img.shields.io/badge/Live_Demo-00b894?style=for-the-badge&logo=vercel&logoColor=white)](https://career-os-ai-ten.vercel.app)
 [![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/CareerOS-AI)
 
 </td>
@@ -139,6 +140,7 @@ One cart across many sellers, Stripe Connect payouts split automatically to vend
 
 `Next.js` `Prisma` `MongoDB` `Stripe` `NextAuth`
 
+[![Live](https://img.shields.io/badge/Live_Demo-00b894?style=for-the-badge&logo=vercel&logoColor=white)](https://vendly-dun.vercel.app)
 [![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/Bazaario-ECommerce-Platform)
 
 </td>
@@ -153,6 +155,7 @@ A drag-and-drop resume builder, ATS scoring, job-description matching, AI cover 
 
 `Next.js` `TypeScript` `MongoDB` `Gemini` `NextAuth`
 
+[![Live](https://img.shields.io/badge/Live_Demo-00b894?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-ats-resume-platfoorm.vercel.app)
 [![Repo](https://img.shields.io/badge/View_Repo-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishabh893-ux/AI-ATS-RESUME-PLATFOORM)
 
 </td>
@@ -178,12 +181,12 @@ Catalogue, loans with automatic late fines, a fair first-come-first-served reser
 
 <div align="center">
 
-| Project | Description | Stack |
-|:---|:---|:---|
-| [🧭 Waypoint](https://github.com/Rishabh893-ux/WaypointLearningPath) | AI learning-path recommender: turns your goals into an ordered roadmap with a progress dashboard | `Next.js` `Gemini` `Recharts` |
-| [🔍 OMR Answer Sheet Processor](https://github.com/Rishabh893-ux/Omr-answer-sheet-processor) | Automated answer-sheet grading with computer vision, batch processing and reports | `Python` `OpenCV` |
-| [🌤️ Skyline Weather](https://github.com/Rishabh893-ux/Skyline-Weather-App) | Weather app with 7-day and hourly forecasts, air quality, UV and location search | `JavaScript` `Open-Meteo` |
-| [🤖 College Enquiry Chatbot](https://github.com/Rishabh893-ux/college-enquiry-chatbot) | Intent-classification chatbot for admission, fees, courses and hostel questions | `Python` `Flask` `scikit-learn` |
+| Project | Description | Stack | Live |
+|:---|:---|:---|:---:|
+| [🧭 Waypoint](https://github.com/Rishabh893-ux/WaypointLearningPath) | AI learning-path recommender: turns your goals into an ordered roadmap with a progress dashboard | `Next.js` `Gemini` `Recharts` | [🌐 Demo](https://waypointlearningpath.vercel.app) |
+| [🔍 OMR Answer Sheet Processor](https://github.com/Rishabh893-ux/Omr-answer-sheet-processor) | Automated answer-sheet grading with computer vision, batch processing and reports | `Python` `OpenCV` | — |
+| [🌤️ Skyline Weather](https://github.com/Rishabh893-ux/Skyline-Weather-App) | Weather app with 7-day and hourly forecasts, air quality, UV and location search | `JavaScript` `Open-Meteo` | — |
+| [🤖 College Enquiry Chatbot](https://github.com/Rishabh893-ux/college-enquiry-chatbot) | Intent-classification chatbot for admission, fees, courses and hostel questions | `Python` `Flask` `scikit-learn` | — |
 
 </div>
 
@@ -193,7 +196,7 @@ Catalogue, loans with automatic late fines, a fair first-come-first-served reser
 
 | | |
 |:---:|:---|
-| 🚀 | **10+ public projects** across AI, full stack and backend, with **2 live on Vercel** |
+| 🚀 | **10+ public projects** across AI, full stack and backend, with **6 live on Vercel** |
 | 🤖 | Built an **AI agent** with Gemini function calling: the AI Navigator mentor acts in the app, with Undo |
 | 💳 | Integrated **Stripe Connect** for automatic multi-vendor payouts (Vendly) |
 | 🔐 | Shipped a **.NET 8 REST API** with JWT roles, EF Core and 24 passing tests |
