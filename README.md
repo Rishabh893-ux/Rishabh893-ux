@@ -14,7 +14,7 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=globe&logoColor=00F7FF&labelColor=0d1117)](https://github.com/Rishabh893-ux/Rishabh-Portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=globe&logoColor=00F7FF&labelColor=0d1117)](https://rishabh-kasaudhan.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117)](https://www.linkedin.com/in/rishabh-kasaudhan-0a960724a/)
 [![Gmail](https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117)](mailto:rkasaudhan87@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0d1117)](https://github.com/Rishabh893-ux)
@@ -243,7 +243,7 @@ Catalogue, loans with automatic late fines, a fair first-come-first-served reser
 
 ```
 AI Navigator v3      ██████████████ 100%  Skill tree + AI agent mentor — shipped ✅
-Portfolio v3         ██████░░░░░░░░  40%  Next.js personal site with animations
+Portfolio v3         ██████████████ 100%  Next.js personal site — live at rishabh-kasaudhan.vercel.app ✅
 ```
 
 ---
