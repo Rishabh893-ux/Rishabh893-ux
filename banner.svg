@@ -1,143 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="250">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-labelledby="t d">
+  <title id="t">Rishabh Kasaudhan</title>
+  <desc id="d">AI Engineer and Full Stack Developer. Building AI-powered products.</desc>
   <defs>
-    <!-- Background Gradient -->
-    <radialGradient id="bg" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
-      <stop offset="0%" stop-color="#161b22" />
-      <stop offset="100%" stop-color="#0d1117" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset=".55" stop-color="#120f2a"/>
+      <stop offset="1" stop-color="#0b1a24"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00F7FF"/>
+      <stop offset=".5" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#00F7FF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6e40c9" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#6e40c9" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#00F7FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowP" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#6e40c9" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#6e40c9" stop-opacity="0"/>
     </radialGradient>
-    
-    <!-- Text Gradient -->
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F7FF">
-        <animate attributeName="stop-color" values="#00F7FF;#7aa2f7;#00F7FF" dur="4s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" stop-color="#6e40c9" />
-      <stop offset="100%" stop-color="#c4b5fd">
-        <animate attributeName="stop-color" values="#c4b5fd;#bb9af7;#c4b5fd" dur="4s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
-
-    <linearGradient id="hoverGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="50%" stop-color="#c4b5fd" />
-      <stop offset="100%" stop-color="#00F7FF" />
-    </linearGradient>
-    
-    <!-- Glow Filters -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-
-    <filter id="glow-intense" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-
-    <!-- Glassmorphism Filter -->
-    <filter id="glass">
-      <feGaussianBlur stdDeviation="10" result="blur" />
-      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="glow" />
-      <feBlend in="SourceGraphic" in2="glow" />
-    </filter>
+    <radialGradient id="glowC" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#00F7FF" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#00F7FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <path id="p1" d="M60 70 L170 120 L120 220 L250 260"/>
+    <path id="p2" d="M1140 60 L1030 130 L1100 210 L960 260"/>
   </defs>
 
   <style>
-    @keyframes float1 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-20px, -15px); } }
-    @keyframes float2 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(20px, 15px); } }
-    @keyframes pulse { 0%, 100% { opacity: 0.7; } 50% { opacity: 0.2; } }
-    @keyframes stream { 0% { stroke-dashoffset: 1000; } 100% { stroke-dashoffset: 0; } }
-    
-    .orb1 { animation: float1 8s ease-in-out infinite, pulse 6s infinite; }
-    .orb2 { animation: float2 10s ease-in-out infinite, pulse 8s infinite; }
-    
-    .data-stream {
-      stroke-dasharray: 100 200;
-      animation: stream 15s linear infinite;
-    }
-
-    /* Base Text Styles */
-    .text-glow { 
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
-      font-weight: 900; 
-      font-size: 56px; 
-      fill: #ffffff; 
-      letter-spacing: 2px;
-      transition: all 0.4s ease;
-      cursor: pointer;
-    }
-    .subtitle { 
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
-      font-weight: 500; 
-      font-size: 18px; 
-      fill: #c0caf5; 
-      letter-spacing: 5px; 
-      transition: all 0.4s ease;
-    }
-    .tagline {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
-      font-weight: 400; 
-      font-size: 14px; 
-      fill: #7aa2f7; 
-      letter-spacing: 2px;
-      opacity: 0.8;
-      transition: all 0.4s ease;
-    }
-
-    /* Hover Effects */
-    .interactive-group {
-      transform-origin: center;
-      transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    }
-    .interactive-group:hover {
-      transform: scale(1.03);
-    }
-    .interactive-group:hover .text-glow {
-      fill: url(#hoverGrad);
-      filter: url(#glow-intense);
-      letter-spacing: 4px;
-    }
-    .interactive-group:hover .subtitle {
-      fill: #ffffff;
-      letter-spacing: 7px;
-    }
-    .interactive-group:hover .tagline {
-      fill: #00F7FF;
-      opacity: 1;
-    }
-    .interactive-group:hover .glass-card {
-      fill-opacity: 0.15;
-      stroke-opacity: 0.5;
-    }
-    .glass-card {
-      transition: all 0.4s ease;
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
+    .node { fill: #00F7FF; animation: pulse 3s ease-in-out infinite; }
+    .node.v { fill: #c4b5fd; }
+    .edge { fill: none; stroke: #7aa2f7; stroke-opacity: .25; stroke-width: 1.2; }
+    .orbA { animation: drift 12s ease-in-out infinite; }
+    .orbB { animation: drift 14s ease-in-out infinite reverse; }
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.8,.2,1) forwards; }
+    .chip rect { fill: #ffffff; fill-opacity: .04; stroke: #c4b5fd; stroke-opacity: .35; }
+    .chip text { fill: #c0caf5; font-size: 14px; font-weight: 600; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    .scan { animation: scan 7s linear infinite; }
+    @keyframes pulse { 0%,100% { opacity: .9 } 50% { opacity: .25 } }
+    @keyframes drift { 0%,100% { transform: translate(0,0) } 50% { transform: translate(30px,-14px) } }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
+    @keyframes blink { 50% { opacity: 0 } }
+    @keyframes scan { from { transform: translateX(-300px) } to { transform: translateX(1500px) } }
+    @media (prefers-reduced-motion: reduce) {
+      .node, .orbA, .orbB, .cursor, .scan { animation: none }
+      .rise { animation: none; opacity: 1 }
     }
   </style>
 
-  <!-- Deep Radial Background -->
-  <rect width="800" height="250" fill="url(#bg)" />
-  
-  <!-- Neural/Data Streams -->
-  <path d="M -100 125 C 200 20, 600 230, 900 125" fill="none" stroke="#6e40c9" stroke-width="2" opacity="0.4" class="data-stream" />
-  <path d="M -100 150 C 300 250, 500 0, 900 150" fill="none" stroke="#00F7FF" stroke-width="1.5" opacity="0.3" class="data-stream" style="animation-duration: 20s; animation-direction: reverse;" />
-  <path d="M -100 80 C 150 180, 650 70, 900 80" fill="none" stroke="#7aa2f7" stroke-width="3" opacity="0.2" class="data-stream" style="animation-duration: 12s;" />
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <ellipse class="orbA" cx="260" cy="90" rx="260" ry="160" fill="url(#glowP)"/>
+  <ellipse class="orbB" cx="960" cy="250" rx="280" ry="170" fill="url(#glowC)"/>
+  <rect class="scan" x="0" y="0" width="160" height="320" fill="url(#line)" opacity=".06"/>
 
-  <!-- Animated Background Orbs -->
-  <circle cx="150" cy="125" r="100" fill="#6e40c9" class="orb1" filter="blur(60px)"/>
-  <circle cx="650" cy="125" r="120" fill="#00F7FF" class="orb2" filter="blur(70px)"/>
+  <!-- left neural net -->
+  <g>
+    <path class="edge" d="M60 70 L170 120 L120 220 L250 260 M60 70 L120 220 M170 120 L250 260 M60 170 L170 120 M60 170 L120 220"/>
+    <circle class="node" cx="60" cy="70" r="4"/>
+    <circle class="node v" cx="170" cy="120" r="5" style="animation-delay:.6s"/>
+    <circle class="node" cx="120" cy="220" r="4" style="animation-delay:1.2s"/>
+    <circle class="node v" cx="250" cy="260" r="4" style="animation-delay:1.8s"/>
+    <circle class="node" cx="60" cy="170" r="3" style="animation-delay:.9s"/>
+    <circle r="3" fill="#ffffff"><animateMotion dur="4s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+  </g>
 
-  <!-- Interactive Group for Hover Effect -->
-  <g class="interactive-group">
-    <!-- Glassmorphic Card -->
-    <rect x="70" y="50" width="660" height="150" rx="20" fill="#0d1117" fill-opacity="0.5" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1" class="glass-card" />
-    
-    <!-- Main Text -->
-    <text x="400" y="115" text-anchor="middle" class="text-glow">RISHABH KASAUDHAN</text>
-    
-    <!-- Subtitle -->
-    <text x="400" y="155" text-anchor="middle" class="subtitle">AI ENGINEER • FULL STACK • BUILDER</text>
-    
-    <!-- Tagline -->
-    <text x="400" y="185" text-anchor="middle" class="tagline">&lt; Build / Ship / Iterate &gt;</text>
+  <!-- right neural net -->
+  <g>
+    <path class="edge" d="M1140 60 L1030 130 L1100 210 L960 260 M1140 60 L1100 210 M1030 130 L960 260 M1150 150 L1030 130 M1150 150 L1100 210"/>
+    <circle class="node v" cx="1140" cy="60" r="4"/>
+    <circle class="node" cx="1030" cy="130" r="5" style="animation-delay:.7s"/>
+    <circle class="node v" cx="1100" cy="210" r="4" style="animation-delay:1.4s"/>
+    <circle class="node" cx="960" cy="260" r="4" style="animation-delay:2.1s"/>
+    <circle class="node" cx="1150" cy="150" r="3" style="animation-delay:1s"/>
+    <circle r="3" fill="#ffffff"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+  </g>
+
+  <!-- text -->
+  <g text-anchor="middle">
+    <text class="mono rise" x="600" y="78" font-size="15" fill="#7aa2f7" letter-spacing="4">HI, I'M</text>
+    <text class="sans rise" x="600" y="142" font-size="62" font-weight="800" fill="url(#name)" letter-spacing="1" style="animation-delay:.15s">Rishabh Kasaudhan</text>
+    <text class="sans rise" x="600" y="184" font-size="19" font-weight="600" fill="#e6edf3" letter-spacing="5" style="animation-delay:.3s">AI ENGINEER · FULL STACK DEVELOPER</text>
+    <text class="mono rise" x="600" y="218" font-size="15" fill="#9aa5ce" style="animation-delay:.45s">&gt; building AI-powered products that ship<tspan class="cursor" fill="#00F7FF">▍</tspan></text>
+  </g>
+
+  <!-- chips -->
+  <g class="sans rise" style="animation-delay:.6s" text-anchor="middle">
+    <g class="chip"><rect x="333" y="246" width="110" height="32" rx="16"/><text x="388" y="267">AI Agents</text></g>
+    <g class="chip"><rect x="453" y="246" width="96" height="32" rx="16"/><text x="501" y="267">Next.js</text></g>
+    <g class="chip"><rect x="559" y="246" width="96" height="32" rx="16"/><text x="607" y="267">Gemini</text></g>
+    <g class="chip"><rect x="665" y="246" width="96" height="32" rx="16"/><text x="713" y="267">Python</text></g>
+    <g class="chip"><rect x="771" y="246" width="96" height="32" rx="16"/><text x="819" y="267">.NET 8</text></g>
   </g>
 </svg>

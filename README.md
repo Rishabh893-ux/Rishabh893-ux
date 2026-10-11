@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Header"/>
+<img src="./banner.svg" alt="Rishabh Kasaudhan — AI Engineer and Full Stack Developer" width="100%"/>
 
 </div>
 
@@ -93,6 +93,8 @@ const rishabh = {
 <td width="50%" valign="top">
 
 ### 🧭 [AI Navigator](https://github.com/Rishabh893-ux/AI-Navigator-)
+
+<a href="https://ai-navigator-five-nu.vercel.app"><img src="./assets/projects/ai-navigator.jpg" alt="AI Navigator dashboard" width="100%"/></a>
 > AI learning platform with an **agent** mentor
 
 A game-style skill tree of 17 AI skills with quizzes, an adaptive learning path, badges and stats. Its Gemini mentor uses **function calling** to quiz you, save study plans and update your progress, with Undo.
@@ -106,6 +108,8 @@ A game-style skill tree of 17 AI skills with quizzes, an adaptive learning path,
 <td width="50%" valign="top">
 
 ### 💼 [CareerOS AI](https://github.com/Rishabh893-ux/CareerOS-AI)
+
+<a href="https://career-os-ai-ten.vercel.app"><img src="./assets/projects/careeros.jpg" alt="CareerOS AI dashboard" width="100%"/></a>
 > Career-readiness platform that shows its working
 
 Profile, resume, GitHub analysis, mock interviews, outreach and job tracking in one place, with explainable scores computed from real signals.
@@ -121,6 +125,8 @@ Profile, resume, GitHub analysis, mock interviews, outreach and job tracking in 
 <td width="50%" valign="top">
 
 ### ⚡ [EdgePilot AI](https://github.com/Rishabh893-ux/EdgePilot_AI)
+
+<a href="https://edge-pilot-ai.vercel.app"><img src="./assets/projects/edgepilot.jpg" alt="EdgePilot AI cover" width="100%"/></a>
 > Industrial IoT intelligence platform
 
 Real-time sensor analytics, predictive maintenance, computer-vision safety monitoring and an AI copilot, with a 3D digital twin of the machine.
@@ -134,6 +140,8 @@ Real-time sensor analytics, predictive maintenance, computer-vision safety monit
 <td width="50%" valign="top">
 
 ### 🛍️ [Vendly by Bazaario](https://github.com/Rishabh893-ux/Bazaario-ECommerce-Platform)
+
+<a href="https://vendly-dun.vercel.app"><img src="./assets/projects/vendly.jpg" alt="Vendly home page" width="100%"/></a>
 > Multi-vendor e-commerce marketplace
 
 One cart across many sellers, Stripe Connect payouts split automatically to vendors, seller dashboards with revenue charts, and admin moderation.
@@ -149,6 +157,8 @@ One cart across many sellers, Stripe Connect payouts split automatically to vend
 <td width="50%" valign="top">
 
 ### 📄 [AI ATS Resume Platform](https://github.com/Rishabh893-ux/AI-ATS-RESUME-PLATFOORM)
+
+<a href="https://ai-ats-resume-platfoorm.vercel.app"><img src="./assets/projects/ats-resume.jpg" alt="AI ATS Resume builder" width="100%"/></a>
 > Resume builder + ATS score checker
 
 A drag-and-drop resume builder, ATS scoring, job-description matching, AI cover letters and version history, with PDF and DOCX export.
@@ -162,6 +172,8 @@ A drag-and-drop resume builder, ATS scoring, job-description matching, AI cover 
 <td width="50%" valign="top">
 
 ### 📚 [Library Management API](https://github.com/Rishabh893-ux/Library-Management-system)
+
+<a href="https://github.com/Rishabh893-ux/Library-management-system"><img src="./assets/projects/library-api.jpg" alt="Library Management API endpoints" width="100%"/></a>
 > REST API backend for running a library
 
 Catalogue, loans with automatic late fines, a fair first-come-first-served reservation queue and librarian reports. JWT roles and 24 passing tests.
@@ -237,6 +249,16 @@ Portfolio v3         ██████░░░░░░░░  40%  Next.js pe
       </td>
     </tr>
   </table>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rishabh893-ux/Rishabh893-ux/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rishabh893-ux/Rishabh893-ux/output/github-snake.svg"/>
+    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Rishabh893-ux/Rishabh893-ux/output/github-snake-dark.svg"/>
+  </picture>
 </div>
 
 ---
