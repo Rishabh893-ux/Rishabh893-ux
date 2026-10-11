@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 64" width="100%" role="img" aria-label="What I&#x27;m building now">
+  <title>What I&#x27;m building now</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0e7490"/><stop offset=".5" stop-color="#6d28d9"/><stop offset="1" stop-color="#0e7490"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="u" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6e40c9"/><stop offset="1" stop-color="#0e7490" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .n { font: 700 15px 'JetBrains Mono', Consolas, Menlo, monospace; fill: #4f46e5; letter-spacing: 2px; }
+    .t { font: 800 30px 'Segoe UI', -apple-system, Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .bar { transform-origin: 0 0; animation: grow 1.4s cubic-bezier(.2,.8,.2,1) both; }
+    .dot { animation: move 4s ease-in-out infinite; }
+    @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    @keyframes move { 0%,100% { transform: translateX(0) } 50% { transform: translateX(560px) } }
+    @media (prefers-reduced-motion: reduce) { .bar, .dot { animation: none } }
+  </style>
+  <text class="n" x="2" y="38">06 /</text>
+  <text class="t" x="52" y="40" fill="url(#g)">What I&#x27;m building now</text>
+  <rect class="bar" x="2" y="54" width="620" height="3" rx="1.5" fill="url(#u)"/>
+  <circle class="dot" cx="6" cy="55.5" r="3.5" fill="#0891b2"/>
+</svg>

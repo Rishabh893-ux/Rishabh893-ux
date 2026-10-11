@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 374" width="100%" role="img" aria-label="Terminal: recently shipped projects">
+  <title>Recently shipped</title>
+  <style>
+    .l { font: 15px 'JetBrains Mono', Consolas, Menlo, monospace; opacity: 0; animation: in .4s ease-out forwards; }
+    .c { animation: blink 1s steps(1) infinite; }
+    @keyframes in { from { opacity: 0; transform: translateX(-6px) } to { opacity: 1; transform: none } }
+    @keyframes blink { 50% { opacity: 0 } }
+    @media (prefers-reduced-motion: reduce) { .l { animation: none; opacity: 1 } .c { animation: none } }
+  </style>
+  <defs><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6e40c9"/><stop offset="1" stop-color="#00F7FF"/></linearGradient></defs>
+  <rect x="1" y="1" width="468" height="372" rx="14" fill="#0d1117" stroke="url(#bd)" stroke-opacity=".6"/>
+  <path d="M1 15a14 14 0 0 1 14-14h440a14 14 0 0 1 14 14v25H1z" fill="#161b22"/>
+  <circle cx="22" cy="21" r="6" fill="#ff5f57"/><circle cx="42" cy="21" r="6" fill="#febc2e"/><circle cx="62" cy="21" r="6" fill="#28c840"/>
+  <text x="235" y="26" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#8b949e">rishabh@dev: ~</text>
+    <text class="l" x="24" y="78" fill="#7aa2f7" style="animation-delay:0.30s"><tspan fill="#3fb950">$</tspan> ./recent-ships.sh</text>
+  <text class="l" x="24" y="104" fill="#00F7FF" style="animation-delay:0.65s"><tspan fill="#3fb950">✔</tspan> AI Navigator v3 · AI agent mentor</text>
+  <text class="l" x="24" y="130" fill="#00F7FF" style="animation-delay:1.00s"><tspan fill="#3fb950">✔</tspan> CareerOS AI · explainable scores</text>
+  <text class="l" x="24" y="156" fill="#00F7FF" style="animation-delay:1.35s"><tspan fill="#3fb950">✔</tspan> Vendly · Stripe Connect payouts</text>
+  <text class="l" x="24" y="182" fill="#00F7FF" style="animation-delay:1.70s"><tspan fill="#3fb950">✔</tspan> EdgePilot AI · 3D digital twin</text>
+  <text class="l" x="24" y="208" fill="#00F7FF" style="animation-delay:2.05s"><tspan fill="#3fb950">✔</tspan> Library API · .NET 8, 24 tests</text>
+  <text class="l" x="24" y="242" fill="#7aa2f7" style="animation-delay:2.40s"><tspan fill="#3fb950">$</tspan> cat status.txt</text>
+  <text class="l" x="24" y="268" fill="#c4b5fd" style="animation-delay:2.75s">Open to internships &amp; collabs</text>
+  <text class="l" x="24" y="294" fill="#e6edf3" style="animation-delay:3.10s">Building in public · India</text>
+  <text class="l" x="24" y="334" fill="#3fb950" style="animation-delay:3.45s">$ <tspan class="c" fill="#00F7FF">▍</tspan></text>
+</svg>

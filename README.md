@@ -26,9 +26,12 @@
 
 ---
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding gif"/>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headers/about-light.svg"/>
+  <img src="./assets/headers/about.svg" alt="About me" width="100%"/>
+</picture>
 
-## 🧠 About me
+<img align="right" src="./assets/about-terminal.svg" width="400" alt="Terminal: recently shipped — AI Navigator v3, CareerOS AI, Vendly, EdgePilot AI, Library API. Open to internships and collaborations."/>
 
 ```typescript
 const rishabh = {
@@ -46,9 +49,14 @@ const rishabh = {
 };
 ```
 
+<br clear="right"/>
+
 ---
 
-## 🛠️ Tech stack
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headers/stack-light.svg"/>
+  <img src="./assets/headers/stack.svg" alt="Tech stack" width="100%"/>
+</picture>
 
 <div align="center">
 
@@ -85,7 +93,10 @@ const rishabh = {
 
 ---
 
-## 🚀 Featured projects
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headers/projects-light.svg"/>
+  <img src="./assets/headers/projects.svg" alt="Featured projects" width="100%"/>
+</picture>
 
 <div align="center">
 <table>
@@ -189,7 +200,10 @@ Catalogue, loans with automatic late fines, a fair first-come-first-served reser
 
 ---
 
-## 📦 More projects
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headers/more-light.svg"/>
+  <img src="./assets/headers/more.svg" alt="More projects" width="100%"/>
+</picture>
 
 <div align="center">
 
@@ -204,7 +218,12 @@ Catalogue, loans with automatic late fines, a fair first-come-first-served reser
 
 ---
 
-## ✅ Highlights
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headers/highlights-light.svg"/>
+  <img src="./assets/headers/highlights.svg" alt="Highlights" width="100%"/>
+</picture>
+
+<img src="./assets/highlights.svg" alt="10+ public projects, 6 live on Vercel, 5 AI agent tools, 24 passing API tests" width="100%"/>
 
 | | |
 |:---:|:---|
@@ -217,7 +236,10 @@ Catalogue, loans with automatic late fines, a fair first-come-first-served reser
 
 ---
 
-## 🏗️ What I'm building now
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headers/building-light.svg"/>
+  <img src="./assets/headers/building.svg" alt="What I'm building now" width="100%"/>
+</picture>
 
 ```
 AI Navigator v3      ██████████████ 100%  Skill tree + AI agent mentor — shipped ✅
@@ -226,7 +248,10 @@ Portfolio v3         ██████░░░░░░░░  40%  Next.js pe
 
 ---
 
-## 📊 GitHub Dashboard
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headers/dashboard-light.svg"/>
+  <img src="./assets/headers/dashboard.svg" alt="GitHub Dashboard" width="100%"/>
+</picture>
 
 <div align="center">
   <table width="100%">
@@ -263,7 +288,10 @@ Portfolio v3         ██████░░░░░░░░  40%  Next.js pe
 
 ---
 
-## ✍️ Dev quote
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headers/quote-light.svg"/>
+  <img src="./assets/headers/quote.svg" alt="Dev quote" width="100%"/>
+</picture>
 
 <div align="center">
 
